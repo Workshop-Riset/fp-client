@@ -43,18 +43,6 @@ export default function App() {
         <View style={{ flex: 3 }}>
           <TextInput
             style={[styles.input, { width: "100%" }]}
-            placeholder="Name"
-          />
-          <TextInput
-            style={[styles.input, { width: "100%" }]}
-            placeholder="Email"
-          />
-          <TextInput
-            style={[styles.input, { width: "100%" }]}
-            placeholder="Phone number"
-          />
-          <TextInput
-            style={[styles.input, { width: "100%" }]}
             placeholder="Username"
           />
           <TextInput
@@ -75,14 +63,14 @@ export default function App() {
                 height: 35,
               }}
             >
-              <Text> Register </Text>
+              <Text> Login </Text>
             </View>
           </Pressable>
         </View>
 
         <View style={{ flex: 1, alignItems: "center" }}>
           <Text style={{ marginTop: 5, marginBottom: 5 }}>
-            You have not account? Register
+            You already have an account? Login
             <Text style={{ color: "blue", fontSize: 16 }}> here </Text>
           </Text>
         </View>
